@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+
+    <!-- For Search Engine Optimization (SEO) -->
+    <meta name="description" content="A brief description" />
+    <meta name="author" content="Your site name" />
+
+    <!-- Open Graph Protocol -->
+    <meta property="og:title" content="A brief description" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.mysite" />
+    <meta property="og:image" content="image.png" />
+    <meta property="og:site_name" content="Mangata and Gallo" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya&family=Mukta&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="bg-img">
+        <div id="overlay">
+          <div class="bg-container">
+            <div class="navbar">
+              <h2 class="company-name">Caribbean Jerk Hut</h2>
+              <div class="links">
+                <a href="#contact">Contact</a>
+                <a href="#menu">Menu</a>
+                <a href="#special">Special</a>
+              </div>
+            </div>
+            <!-- Mobile Nav -->
+            <h2 class="company-name-2">Caribbean Jerk Hut</h2>
+            <a href="#" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+            <div class="navbar-2">
+              <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#special">Special</a></li>
+              </ul>
+              <!-- <div class="links-2">
+                <a href="#contact">Contact</a>
+                <a href="#menu">Menu</a>
+                <a href="#special">Special</a>
+              </div> -->
+            </div>
+            <p class="slogan">
+              Once You Try It <br />
+              You Will Love It!
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="special">
+        <h2 id="special">Our Specials</h2>
+      </div>
+      <section class="flex-container">
+        <article class="flex-item">
+          <div class="img-special">
+            <img src="/images/ackee.jpg" alt="" />
+          </div>
+          <h3 class="menu-special">Monday Breakfast Special</h3>
+          <b class="price">C$10.00</b>
+          <p class="p-special margin-b">
+            Salted cod fish fried with ackee <br />
+            and served with fried dumplings <br />
+            or boiled provisions.
+          </p>
+        </article>
+        <article class="flex-item">
+          <div class="img-special">
+            <img src="/images/jerk-chicken.jpg" alt="" />
+          </div>
+          <h3 class="menu-special">Wednesday Lunch Special</h3>
+          <b class="price">C$9.00</b>
+          <p class="p-special margin-b">
+            Jerk chicken meal served with <br />
+            rice and peas and pasta. Only <br />
+            between 11AM and 2PM.
+          </p>
+        </article>
+        <article class="flex-item">
+          <div class="img-special">
+            <img src="/images/bbq-chicken.jpg" alt="" />
+          </div>
+          <h3 class="menu-special">Friday Dinner Special</h3>
+          <b class="price">C$8.50</b>
+          <p class="p-special">
+            Curry goat meal served with <br />
+            rice and potato salad. Only <br />
+            between 6PM and 10PM.
+          </p>
+        </article>
+      </section>
+      <h2 id="menu" class="menu">Our Menu</h2>
+      <section class="menu-container">
+        <!-- Section Starts: Breakfast -->
+        <div class="menu-section">
+          <h3 class="meal-type">Breakfast</h3>
+          <!-- Meal Starts -->
+          <div class="meal-name">
+            <div class="label">Ackee & Saltfish</div>
+            <b class="low">C$14.00</b>
+            <div class="description">Served with fried dumplings.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Callaloo</div>
+            <b class="low">C$12.00</b>
+            <div class="description">
+              Served with boiled dumplings, yam, and banana.
+            </div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Rundown</div>
+            <b class="low">C$12.00</b>
+            <div class="description">
+              Salt mackerel simmered in creamy coconut sauce.
+            </div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Pancake with Egg</div>
+            <b class="low">C$8.00</b>
+            <div class="description">Pancakes with fried/scrambled eggs.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Cereal</div>
+            <b class="low">C$5.00</b>
+            <div class="description">Milk, frosted flakes or cheerios.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Egg & Bacon Meal</div>
+            <b class="low">C$7.50</b>
+            <div class="description">
+              Egg, bacon, hashbrown and english muffin, with a hot beverage.
+            </div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Egg & Sausage Meal</div>
+            <b class="low">C$6.50</b>
+            <div class="description">
+              Egg, sausage, hashbrown and english muffin, with a hot beverage.
+            </div>
+          </div>
+          <!-- Meal Ends -->
+        </div>
+        <!-- Section Ends: Breakfast -->
+
+        <!-- Section Starts: Lunch/Dinner -->
+        <div class="menu-section">
+          <h3 class="meal-type">Lunch/Dinner</h3>
+          <!-- Meal Starts -->
+          <div class="meal-name">
+            <div class="label">Fried Chicken Meal</div>
+            <b class="low">C$10.00</b>
+            <div class="description">Fried chicken served with rice.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Jerk Pork Meal</div>
+            <b class="low">C$14.80</b>
+            <div class="description">
+              Spicy jerk pork served with rice and peas.
+            </div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Oxtail & Beans Meal</div>
+            <b class="low">C$16.00</b>
+            <div class="description">
+              Oxtail and beans served with rice and peas.
+            </div>
+          </div>
+          <div class="meal-name">
+            <div class="label">BBQ Chicken Meal</div>
+            <b class="low">C$11.00</b>
+            <div class="description">BBQ fried chicken served with rice.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Curry Goat Meal</div>
+            <b class="low">C$13.50</b>
+            <div class="description">Curry goat served with rice.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Jerk Chicken Meal</div>
+            <b class="low">C$11.50</b>
+            <div class="description">Jerk chicken served with rice.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Stew Fish Meal</div>
+            <b class="low">C$15.00</b>
+            <div class="description">
+              Brown stew fish served with fried bammy.
+            </div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Jerk Chicken Burger</div>
+            <b class="low">C$10.00</b>
+            <div class="description">
+              Jerk chicken burger served with fries.
+            </div>
+          </div>
+          <!-- Meal Ends -->
+        </div>
+        <!-- Section Ends: Lunch/Dinner -->
+
+        <!-- Section Starts: Hot Beverages  -->
+        <div class="menu-section">
+          <h3 class="meal-type">Hot Beverages</h3>
+          <!-- Beverage Starts -->
+          <div class="meal-name">
+            <div class="label">Hot Chocolate</div>
+            <b class="low">C$2.00</b>
+            <div class="description">Hot chocolate with creamer or milk.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Coffee</div>
+            <b class="low">C$2.50</b>
+            <div class="description">
+              Blue mountain coffee with creamer or milk.
+            </div>
+          </div>
+          <div class="meal-name">
+            <div class="label">French Vanilla</div>
+            <b class="low">C$2.50</b>
+            <div class="description">French vanilla with creamer or milk.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Peppermint Tea</div>
+            <b class="low">C$1.50</b>
+            <div class="description">Peppermint with sugar or honey.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Chammomile Tea</div>
+            <b class="low">C$1.50</b>
+            <div class="description">Chammomile with sugar or honey.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Ram Goat Soup</div>
+            <b class="low">C$4.50</b>
+            <div class="description">Goat meat with manish water</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Chicken Foot Soup</div>
+            <b class="low">C$3.50</b>
+            <div class="description">Chicken foot with manish water</div>
+          </div>
+          <!-- Beverage Ends -->
+        </div>
+        <!-- Section Ends: Hot Beverages -->
+
+        <!-- Section Starts: Cold Beverages  -->
+        <div class="menu-section">
+          <h3 class="meal-type">Cold Beverages</h3>
+          <!-- Beverage Starts -->
+          <div class="meal-name">
+            <div class="label">Gingerale</div>
+            <b class="low">C$2.00</b>
+            <div class="description">Buy one, get one free.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Malta</div>
+            <b class="low">C$3.00</b>
+            <div class="description">Buy two, get one free.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Tropical Rhythm</div>
+            <b class="low">C$3.50</b>
+            <div class="description">Buy one, get one half off.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Smirnoff Ice</div>
+            <b class="low">C$4.50</b>
+            <div class="description">Buy one, get one half off</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Water</div>
+            <b class="low">C$1.00</b>
+            <div class="description">Buy one, get one free.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Ginger Beer</div>
+            <b class="low">C$2.00</b>
+            <div class="description">Buy two, get one free.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Sorrel Beer</div>
+            <b class="low">C4.00</b>
+            <div class="description">Made with real sorrel.</div>
+          </div>
+          <div class="meal-name">
+            <div class="label">Coconut Water</div>
+            <b class="low">C3.50</b>
+            <div class="description">Made with real coconut.</div>
+          </div>
+          <!-- Beverage Ends -->
+        </div>
+        <!-- Section Ends: Cold Beverages -->
+      </section>
+      <h2 class="contact">Contact Us</h2>
+      <section id="contact" class="flex-container-1">
+        <article class="flex-item-2">
+          <div class="address">
+            <h4>Address</h4>
+            <p class="p-contact">
+              16 Sesame street <br />
+              Mississauga, ON <br />
+              L6T 4A5, Canada
+            </p>
+          </div>
+          <div class="hours">
+            <h4>Business Hours</h4>
+            <ul>
+              <li>Monday - Thursday: 10AM to 10PM</li>
+              <li>Friday & Saturday: 10AM to 11PM</li>
+            </ul>
+          </div>
+          <div class="number">
+            <h4>Telephone Number</h4>
+            <p class="p-contact">(905)-657-5637</p>
+          </div>
+        </article>
+        <article class="flex-item-1">
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369106.7267949492!2d-79.65824079514913!3d43.71789901030551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1672556165404!5m2!1sen!2sca"
+              width="700"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="social">
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+      </div>
+      <div>
+        <hr />
+        <p>Caribbean Jerk Hut &copy;</p>
+      </div>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
